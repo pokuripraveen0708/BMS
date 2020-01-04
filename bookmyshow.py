@@ -7,8 +7,8 @@ import time
 # AGHM - asian gpr
 # CPCL -
 try:
-    site= "https://in.bookmyshow.com/buytickets/war-hyderabad/movie-hyd-ET00107162-MT/" #Replace this your movieandcity url
-    date="20191002" #replace the date with the date for which you'd like to book tickets! Format: YYYYMMDD
+    site= "https://in.bookmyshow.com/buytickets/prati-roju-pandaage-hyderabad/movie-hyd-ET00118323-MT/" #Replace this your movieandcity url
+    date="20200104" #replace the date with the date for which you'd like to book tickets! Format: YYYYMMDD
     site=site+date
     hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -25,9 +25,9 @@ try:
     # toggle allow less secure apps to on
     # https://myaccount.google.com/lesssecureapps?pli=1
     GMAIL_USER = 'pokuri.praveen0708@gmail.com'
-    GMAIL_PASS = ''
-    SUBJECT = 'WAR bookings started'
-    TEXT = 'The tickets are now available for war movie at Asian GPR'
+    GMAIL_PASS = 'plotno@21?'
+    SUBJECT = 'bookings started'
+    TEXT = 'The tickets are now available for the movie at Asian GPR'
 
     def send_email(sub,t):
         print("Sending Email")
