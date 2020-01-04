@@ -24,8 +24,8 @@ try:
     # Please add your username and password here, and make sure you
     # toggle allow less secure apps to on
     # https://myaccount.google.com/lesssecureapps?pli=1
-    GMAIL_USER = 'pokuri.praveen0708@gmail.com'
-    GMAIL_PASS = 'plotno@21?'
+    GMAIL_USER = ''
+    GMAIL_PASS = ''
     SUBJECT = 'bookings started'
     TEXT = 'The tickets are now available for the movie at Asian GPR'
 
